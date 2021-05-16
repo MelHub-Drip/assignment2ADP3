@@ -21,8 +21,9 @@ public class CustomList implements List
     }//** End of constructor **
 
     @Override
-    public int size() {
-        return 0;
+    public int size()
+    {
+        return arrayItems.size();
     }
 
     @Override
@@ -55,8 +56,9 @@ public class CustomList implements List
     @Override
     public boolean remove(Object o)
     {
-        return false;
-    }
+        return arrayItems.remove(o);
+
+    }//** End of remove method **
 
     @Override
     public boolean addAll(Collection collection) {

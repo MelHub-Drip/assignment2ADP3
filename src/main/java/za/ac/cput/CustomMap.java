@@ -23,8 +23,9 @@ public class CustomMap implements Map
     }//** End of construction **
 
     @Override
-    public int size() {
-        return 0;
+    public int size()
+    {
+        return mapItems.size();
     }
 
     @Override

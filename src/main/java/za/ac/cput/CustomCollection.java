@@ -22,9 +22,11 @@ public class CustomCollection implements Collection
     }//** End of construction **
 
     @Override
-    public int size() {
-        return 0;
-    }
+    public int size()
+    {
+        return items.size();
+
+    }//** End of size method **
 
     @Override
     public boolean isEmpty() {

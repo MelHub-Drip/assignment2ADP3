@@ -23,8 +23,9 @@ public class CustomSet implements Set
     }//** End of constructor **
 
     @Override
-    public int size() {
-        return 0;
+    public int size()
+    {
+        return setItems.size();
     }
 
     @Override
